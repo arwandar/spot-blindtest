@@ -1,0 +1,8 @@
+node_modules
+node_modules
+.spotify_token.json
+.git
+dist
+build
+*.log
+

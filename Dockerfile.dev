@@ -1,0 +1,6 @@
+FROM node:lts-slim
+ENV NODE_ENV="development"
+WORKDIR /app
+
+EXPOSE 5174
+CMD ["npm", "run", "dev"]
